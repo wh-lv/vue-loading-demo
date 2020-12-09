@@ -1,19 +1,19 @@
 # vue-loading-demo
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+## Install
+```shell
+npm install vue-loading-demo -S
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+## Quick Start
+``` javascript
+import Loading from 'vue-loading-demo'
+
+const load = Loading({ 
+    // ...
+})
+ // or const load = Loading()
+
+load.show()
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
